@@ -1,0 +1,6 @@
+aws_region = "us-east-1"
+replica_region = "us-west-2"
+project_name = "aws-security-auditor"
+environment = "dev"
+bedrock_model = "anthropic.claude-3-sonnet-20240229-v1:0"
+# Optional: serper_api_key = "your-serper-api-key"
