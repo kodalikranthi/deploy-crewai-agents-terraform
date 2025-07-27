@@ -2,7 +2,11 @@
 import sys
 import os
 import logging
-from src.aws_infrastructure_security_audit_and_reporting.crew import AwsInfrastructureSecurityAuditAndReportingCrew
+
+# Add the src directory to the Python path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
+
+from aws_infrastructure_security_audit_and_reporting.crew import AwsInfrastructureSecurityAuditAndReportingCrew
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
